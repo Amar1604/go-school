@@ -1,0 +1,52 @@
+# ==========================================
+# Sensitive Configuration & Credentials
+# ==========================================
+assets/mail_config.php
+*.env
+*.env.local
+*.env.*.local
+
+# ==========================================
+# User Uploads (Preserve folders via .gitkeep)
+# ==========================================
+adminUploads/*
+!adminUploads/.gitkeep
+
+studentUploads/*
+!studentUploads/.gitkeep
+!studentUploads/1701517055user.png
+
+teacherUploads/*
+!teacherUploads/.gitkeep
+!teacherUploads/1701517055user.png
+
+notesUploads/*
+!notesUploads/.gitkeep
+
+noticeUploads/*
+!noticeUploads/.gitkeep
+
+syllabusUploads/*
+!syllabusUploads/.gitkeep
+
+# ==========================================
+# Operating System & Editor Files
+# ==========================================
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# Logs & Temporary Files
+# ==========================================
+*.log
+error_log
+*.tmp
+*.bak
